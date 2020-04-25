@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="150dp">
+
+
+
+
+    <ImageView
+        android:id="@+id/ivDeviceIcon"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_device1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"/>
+
+    <TextView
+        android:id="@+id/tvDeviceName"
+        android:maxLines="1"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@+id/ivDeviceIcon"
+        android:layout_centerInParent="true"
+        android:text="Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginEnd="15dp"
+        android:id="@+id/tvStatus"
+        android:textColor="#B0E0E6"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/ivNext"
+        android:text="在线"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivNext"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_next"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+
+        />
+</RelativeLayout>
